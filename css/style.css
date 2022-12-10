@@ -253,8 +253,11 @@
 
   .navbar {
     background: var(--dark-color);
-    padding: 1rem;
-    position: static;
+    /* padding: 1rem; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
