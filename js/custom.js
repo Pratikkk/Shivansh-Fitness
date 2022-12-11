@@ -114,3 +114,7 @@ function splitLetters(word) {
 changeWord();
 setInterval(changeWord, 4000);
 
+// var swiper = new Swiper(".mySwiper", {
+//   effect: "cards",
+//   grabCursor: true
+// });
