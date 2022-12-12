@@ -863,6 +863,15 @@
   }
 }
 
+.carousel-indicators li {
+  background-color: #999 !important;
+  background-color: rgba(70,70,70,.25) !important;
+}
+
+.carousel-indicators .active {
+  background-color: #444 !important;
+}
+
 
 /* .swiper {
   width: 400px;
